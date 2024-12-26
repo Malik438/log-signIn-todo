@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./styles/index.css" />
+  <link rel="stylesheet" href="./styles/auth.css" />
+
+  <title>PS E-Mart</title>
+</head>
+<!-- Assuming we have login as main page for now -->
+<body>
+<span class="container">
+      <!-- Left Section -->
+      <section class="left-section">
+        <img src="https://picsum.photos/400/600" alt="Left Section Image" />
+      </section>
+  <!-- Right Section -->
+      <section class="right-section">
+        <span class="logo-container">
+          <img src="https://picsum.photos/80" alt="PS E-Mart Logo" />
+          <h2>PS E-Mart</h2>
+        </span>
+        <h1 class="title">Welcome Back</h1>
+        <h3 class="subtitle">Sign in to continue</h3>
+        <form>
+          <input
+            type="email"
+            name="email_input"
+            id="email_input"
+            placeholder="Email"
+          />
+          <input
+            type="password"
+            name="password_input"
+            id="password_input"
+            placeholder="Password"
+          />
+          <a class="password-hint" href="">Forgot Password</a>
+          <button class="signin-button">Sign In</button>
+        </form>
+        <span class="signup-hint">
+          <p>Don't have an account?</p>
+          <a href="./pages/signup.html">Sign Up</a>
+        </span>
+      </section>
+    </span>
+</body>
+</html>
